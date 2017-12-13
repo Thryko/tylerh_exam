@@ -37,9 +37,9 @@
             
             <div class="site-branding__text">
 			<?php if ( is_front_page() ) : ?>
-            
+            <!--built-in conditional was busted. Changed. !-->
              
-                
+                <!--replaces the standard home URL with WP's own function for getting a link to a page- in this case, the one with the ID of 5, our About page. -->
 				<h1 class="site-title"><a href="<?php echo get_page_link(5); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<?php else : ?>
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
