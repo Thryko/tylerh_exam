@@ -68,18 +68,6 @@ if ( ! function_exists( 'thstarter_setup' ) ) :
 
 		// Add theme support for selective refresh for widgets.
 		add_theme_support( 'customize-selective-refresh-widgets' );
-
-		/**
-		 * Add support for core custom logo.
-		 *
-		 * @link https://codex.wordpress.org/Theme_Logo
-		 */
-		add_theme_support( 'custom-logo', array(
-			'height'      => 90,
-			'width'       => 90,
-			'flex-width'  => true,
-			'flex-height' => true,
-		) );
 	}
 endif;
 add_action( 'after_setup_theme', 'thstarter_setup' );
@@ -122,7 +110,7 @@ function thstarter_scripts() {
 
 	wp_enqueue_script( 'thstarter-navigation', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20151215', true );
     
-    wp_enqueue_style('thstarter-fonts', 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i|Source+Sans+Pro:400,400i,700,900" rel="stylesheet');
+    wp_enqueue_style('thstarter-fonts', 'https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i|Source+Sans+Pro:400,400i,700,900|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet');
     
     wp_enqueue_script( 'thstarter-functions', get_template_directory_uri() . '/js/functions.js', array('jquery'), '20171212', true );
     

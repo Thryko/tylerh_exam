@@ -34,5 +34,6 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
+//commented out do disable sidebar on pages, but not posts.
+//get_sidebar();
 get_footer();

@@ -226,7 +226,7 @@ select,
 optgroup,
 textarea {
   color: #000;
-  font-family: "PT Serif", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: Roboto;
   font-size: 18px;
   font-size: 1.125rem;
   line-height: 1.5; }
@@ -244,25 +244,26 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: .75em;
   margin-bottom: .25em;
   font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
-  clear: both; }
+  clear: both;
+  color: #626c85; }
 
 h1 {
-  font-size: 3em; }
-
-h2 {
-  font-size: 2.6em; }
-
-h3 {
   font-size: 2.2em; }
 
-h4 {
+h2 {
   font-size: 2em; }
 
-h5 {
+h3 {
   font-size: 1.8em; }
 
-h6 {
+h4 {
   font-size: 1.6em; }
+
+h5 {
+  font-size: 1.4em; }
+
+h6 {
+  font-size: 1.2em; }
 
 p {
   margin-top: .5em;
@@ -483,7 +484,7 @@ a {
   a:visited {
     color: #000; }
   a:hover, a:focus, a:active {
-    color: #b51c35; }
+    color: #b25634; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -494,7 +495,7 @@ a {
 .entry-content a,
 .comment-content a {
   text-decoration: none;
-  border-bottom: 3px solid #b51c35; }
+  border-bottom: 3px solid #b25634; }
   .page-content a:focus, .page-content a:hover,
   .entry-summary a:focus,
   .entry-summary a:hover,
@@ -502,7 +503,7 @@ a {
   .entry-content a:hover,
   .comment-content a:focus,
   .comment-content a:hover {
-    color: #b51c35; }
+    color: #b25634; }
 
 /*--------------------------------------------------------------
 ## Menus
@@ -533,8 +534,8 @@ a {
     .paging-navigation a:hover,
     .paging-navigation a:focus {
       color: white;
-      border-color: #b51c35;
-      background: #b51c35; }
+      border-color: #b25634;
+      background: #b25634; }
 
 .nav-links {
   margin: 0 auto;
@@ -576,7 +577,7 @@ a {
 .post-navigation .post-title {
   font-size: 1.2em;
   font-weight: 700;
-  border-bottom: 3px solid #b51c35; }
+  border-bottom: 3px solid #b25634; }
 .post-navigation a:hover .post-title,
 .post-navigation a:focus .post-title {
   border-bottom-color: white; }
@@ -733,7 +734,7 @@ a {
   padding: 1em;
   font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
   color: #fff;
-  background-color: #002254; }
+  background-color: #90988b; }
   @media screen and (min-width: 600px) {
     .site-header {
       padding: 1em 2em; } }
@@ -741,12 +742,6 @@ a {
 .site-branding {
   min-height: 65px;
   display: flex; }
-
-.custom-logo-link img {
-  display: block;
-  height: 65px;
-  width: auto;
-  margin-right: 1em; }
 
 .site-branding__text {
   display: flex;
@@ -904,22 +899,22 @@ button.dropdown-toggle {
   .cat-links a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #b51c35; }
+    color: #b25634; }
     .cat-links a:focus, .cat-links a:hover {
-      background-color: #b51c35;
+      background-color: #b25634;
       color: white; }
 
 .entry-title {
   margin: 0.125em 0 .25em;
-  font-size: 2.5em; }
+  font-size: 1.2em; }
   @media screen and (min-width: 900px) {
     .entry-title {
-      font-size: 3em; } }
+      font-size: 2.2em; } }
   .entry-title a {
     text-decoration: none;
-    color: black; }
+    color: #626c85; }
     .entry-title a:focus, .entry-title a:hover {
-      border-bottom: 5px solid #b51c35; }
+      border-bottom: 5px solid #b25634; }
 
 .comments-link::before,
 .edit-link::before {
@@ -938,7 +933,7 @@ button.dropdown-toggle {
     color: black; }
     .entry-meta a:focus, .entry-meta a:hover {
       color: black;
-      border-bottom: 3px solid #b51c35; }
+      border-bottom: 3px solid #b25634; }
 
 .updated:not(.published) {
   display: none; }
@@ -966,7 +961,7 @@ button.dropdown-toggle {
       display: block;
       border-bottom: 3px solid white; }
       .no-sidebar .post-content__wrap .entry-meta a:hover, .no-sidebar .post-content__wrap .entry-meta a:focus {
-        border-bottom-color: #b51c35; }
+        border-bottom-color: #b25634; }
   .no-sidebar .post-content__wrap .byline,
   .no-sidebar .post-content__wrap .posted-on,
   .no-sidebar .post-content__wrap .comments-link,
@@ -1002,7 +997,7 @@ button.dropdown-toggle {
   padding: 1em;
   font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
   color: #fff;
-  background-color: #002254;
+  background-color: #90988b;
   text-align: center; }
   @media screen and (min-width: 600px) {
     .site-footer {
@@ -1114,7 +1109,7 @@ object {
       border-bottom: none;
       box-shadow: none; }
       .gallery-item a:hover img, .gallery-item a:focus img {
-        border-color: #b51c35; }
+        border-color: #b25634; }
     .gallery-item a img {
       padding: .5em;
       margin: 0 auto;

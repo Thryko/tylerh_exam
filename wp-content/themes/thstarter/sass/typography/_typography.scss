@@ -5,7 +5,7 @@ select,
 optgroup,
 textarea {
 	color: $color__text-main;
-	font-family: $font-serif;
+	font-family: $font-copy;
 	@include font-size(.9);
 	line-height: $font__line-height-body;
     @media screen and (min-width:700px){
