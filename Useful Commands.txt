@@ -1,0 +1,6 @@
+sass --watch ../thstarter/sass:../thstarter
+
+RUN FROM /gulp-dev/
+Manually engages SASS watch if gulp does not automatically watch it.
+REMINDER TO SELF:
+Remember to manually hard refresh after each change! Mac is CMD+SHIFT+R
