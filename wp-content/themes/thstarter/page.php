@@ -34,6 +34,6 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <?php
-//commented out do disable sidebar on pages, but not posts.
+//commented out do disable sidebar on pages, but not posts, as per exam question
 //get_sidebar();
 get_footer();

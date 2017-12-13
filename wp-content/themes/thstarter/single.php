@@ -24,3 +24,5 @@ get_header(); ?>
 
 <?php
 get_footer();
+
+//sidebar peeled out to eliminate it as per exam questions
